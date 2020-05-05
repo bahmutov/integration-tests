@@ -29,7 +29,7 @@ Jest + RTL | Cypress | Description
 [LoginForm.unit.test.js](src/LoginModule/components/LoginForm.unit.test.js) | [LoginForm.cy-spec.js](src/LoginModule/components/LoginForm.cy-spec.js) | Testing `<LoginForm>` component
 [index.unit.test.js](src/LoginModule/index.unit.test.js) | - | See "Note 1" below
 [index.integration.test.js](src/LoginModule/index.integration.test.js) | [index.cy-spec.js](src/LoginModule/index.cy-spec.js) | Top level component test
-- | [cy-spec.js](cypress/integration/cy-spec.js) | Full end-to-end Cypress test against `localhost:3000`
+<i>-</i> | [cy-spec.js](cypress/integration/cy-spec.js) | Full end-to-end Cypress test against `localhost:3000`
 
 **Bonus:** the `LoginModule` tests can be executed as a full end-to-end test, see [cypress/integration/cy-spec.js](cypress/integration/cy-spec.js). Just use `cy.visit` instead of `mount`, but the rest stays the same:
 
