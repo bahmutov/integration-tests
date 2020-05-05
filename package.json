@@ -12,12 +12,14 @@
     "react-scripts": "3.4.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts -r @cypress/instrument-cra start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jest-environment-jsdom-sixteen",
     "test:coverage:integration": "react-scripts test --watchAll=false --env=jest-environment-jsdom-sixteen --coverage --testPathPattern=\"integration.test.js\" --verbose",
     "test:coverage:unit": "react-scripts test --watchAll=false --env=jest-environment-jsdom-sixteen --coverage --testPathPattern=\"unit.test.js\" --verbose",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "dev": "start-test 3000 cy:open",
+    "cy:open": "cypress open"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -38,12 +40,14 @@
     "restoreMocks": true
   },
   "devDependencies": {
+    "@cypress/instrument-cra": "1.1.1",
     "@testing-library/react-hooks": "^3.2.1",
     "cypress": "4.5.0",
     "cypress-react-unit-test": "4.1.5",
     "eslint-plugin-prettier": "^3.1.2",
     "jest-environment-jsdom-sixteen": "^1.0.3",
     "prettier": "^2.0.2",
-    "react-test-renderer": "^16.13.1"
+    "react-test-renderer": "^16.13.1",
+    "start-server-and-test": "1.11.0"
   }
 }
