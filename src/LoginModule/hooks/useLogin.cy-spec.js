@@ -12,7 +12,7 @@ describe('useLogin', () => {
     });
   });
 
-  it('successful login flow', async () => {
+  it('successful login flow', () => {
     cy.stub(window, 'fetch').resolves({ json: () => ({ token: '123' }) })
 
     const { result, waitForNextUpdate } = renderHook(() => useLogin());
@@ -44,7 +44,7 @@ describe('useLogin', () => {
     })
   });
 
-  it('error login flow', async () => {
+  it('error login flow', () => {
     cy.stub(window, 'fetch')
       .resolves({ json: () => ({ error: 'invalid password' }) });
 
