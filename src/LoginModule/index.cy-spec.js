@@ -1,6 +1,7 @@
 import React from 'react';
 import { mount } from 'cypress-react-unit-test'
 import { LoginModule } from './';
+import { Container, Box } from '@material-ui/core';
 
 describe('LoginModule', () => {
   it('initial state', () => {
@@ -49,4 +50,16 @@ describe('LoginModule', () => {
     cy.contains('Error:')
     cy.contains('invalid password')
   });
+
+  it('looks real', () => {
+    mount(
+      <React.StrictMode>
+        <Container maxWidth="sm">
+          <Box m={4}>
+            <LoginModule />
+          </Box>
+        </Container>
+      </React.StrictMode>
+    )
+  })
 });
