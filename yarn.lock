@@ -1360,10 +1360,10 @@
     tunnel-agent "^0.6.0"
     uuid "^3.3.2"
 
-"@cypress/webpack-preprocessor@5.1.2":
-  version "5.1.2"
-  resolved "https://registry.yarnpkg.com/@cypress/webpack-preprocessor/-/webpack-preprocessor-5.1.2.tgz#9395924915ffa6a4ecc02c159007eef68d7d6532"
-  integrity sha512-Id8OQ9sRlSHhh8xXYI10jN54Mr5MHCbkD3+mu0BTMGrVFGNcWfcMc5+aOhDPlgHJ7rHp1mmaEJtpx853Fpg7lg==
+"@cypress/webpack-preprocessor@5.2.0":
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/@cypress/webpack-preprocessor/-/webpack-preprocessor-5.2.0.tgz#3a17b478f6e2d600e536e6dda9c2e349d25a297e"
+  integrity sha512-uvo0FfKL+rIXrBGS6qPIaJRD8euK+t6YoZvrTuLPnStprzlgeGfSCnCDUEMJZqFk9LwBd1NtOop+J7qNuv74ng==
   dependencies:
     bluebird "3.7.1"
     debug "4.1.1"
@@ -4464,16 +4464,16 @@ cyclist@^1.0.1:
   resolved "https://registry.yarnpkg.com/cyclist/-/cyclist-1.0.1.tgz#596e9698fd0c80e12038c2b82d6eb1b35b6224d9"
   integrity sha1-WW6WmP0MgOEgOMK4LW6xs1tiJNk=
 
-cypress-react-unit-test@4.1.5:
-  version "4.1.5"
-  resolved "https://registry.yarnpkg.com/cypress-react-unit-test/-/cypress-react-unit-test-4.1.5.tgz#433382c8c016f8c237243e9be2a205c3fbd7b1e4"
-  integrity sha512-m8XjqzkciEhe/JLZWF0rBqtkC6YYznbGc0UGhawgooem6dFII0fVnDsT5qcmSDGxP0GTl1J3xs3Ty4I6efGH+A==
+cypress-react-unit-test@4.2.1:
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/cypress-react-unit-test/-/cypress-react-unit-test-4.2.1.tgz#e61a1e1065c64aadc4b106254c3db1438bc208fb"
+  integrity sha512-8uS7pOjwM5E0dnmR5X8O1XTZc/K5WqIkWDDC9Rjs8QC92Jg1botlR6BREEIQPBIzkvVN19pVpTVkr/100dtuWA==
   dependencies:
     "@cypress/code-coverage" "3.7.0"
-    "@cypress/webpack-preprocessor" "5.1.2"
+    "@cypress/webpack-preprocessor" "5.2.0"
     babel-plugin-istanbul "6.0.0"
     debug "4.1.1"
-    find-webpack "1.6.1"
+    find-webpack "1.8.0"
     mime-types "2.1.26"
 
 cypress@4.5.0:
@@ -5822,10 +5822,10 @@ find-up@^3.0.0:
   dependencies:
     locate-path "^3.0.0"
 
-find-webpack@1.6.1:
-  version "1.6.1"
-  resolved "https://registry.yarnpkg.com/find-webpack/-/find-webpack-1.6.1.tgz#890e794a6917d1c461ea12f8c660524a693be81a"
-  integrity sha512-+7oA6cnlAfsAJJuNUjxtcoDIjQ3YRSNrlQWAXIfCblPowGVmuoO4mx/e8KWSLORho2SONgLiHSEA1jKomczQrA==
+find-webpack@1.8.0:
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/find-webpack/-/find-webpack-1.8.0.tgz#21388ba53b1cf200429b11c602b17ac32d2f2eed"
+  integrity sha512-T/gxzN3TKUykimtec3veUJqJptDNxLIRKllOmcDWpndkD/LQdO6BOQ+R03Hw9l/CjZXwY3aW9opqZA58XpD5yw==
   dependencies:
     debug "4.1.1"
     find-yarn-workspace-root "1.2.1"
