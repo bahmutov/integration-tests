@@ -24,7 +24,7 @@ cy.contains('button', 'Submit').should('be.enabled')
 
 Jest + RTL | Cypress | Description
 --- | --- | ---
-[useLogin.unit.test.js](src/hooks/useLogin.unit.test.js) | [useLogin.cy-spec.js](src/hooks/useLogin.cy-spec.js) | Testing React Hook
+[useLogin.unit.test.js](src/LoginModule/hooks/useLogin.unit.test.js) | [useLogin.cy-spec.js](src/LoginModule/hooks/useLogin.cy-spec.js) | Testing React Hook
 [Login.unit.test.js](src/LoginModule/components/Login.unit.test.js) | [Login.cy-spec.js](src/LoginModule/components/Login.cy-spec.js) | Testing `<Login>` component
 [LoginForm.unit.test.js](src/LoginModule/components/LoginForm.unit.test.js) | [LoginForm.cy-spec.js](src/LoginModule/components/LoginForm.cy-spec.js) | Testing `<LoginForm>` component
 [index.unit.test.js](src/LoginModule/index.unit.test.js) | - | See "Note 1" below
