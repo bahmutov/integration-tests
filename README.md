@@ -45,3 +45,14 @@ A single E2E test covers 100% of the source code. Component tests together also 
 
 **Note 1:** there is a Jest test that uses a snapshot. While there are Cypress [snapshot plugins](https://on.cypress.io/plugins), I would rather use [Visual testing](https://on.cypress.io/plugins#visual-testing). All Cypress plugins should work in both E2E and component tests.
 
+## Debugging
+
+If code coverage is missing, look at the debug logs from the instrumentation, code coverage and component testing modules. Set the following environment variable `DEBUG` and run the code
+
+```
+DEBUG=instrument-cra,cypress-react-unit-test,code-coverage yarn dev
+```
+
+When running component test, you should also be able to see `window.__coverage__` object in the context of the app frame
+
+![Window coverage](images/window-coverage.png)
